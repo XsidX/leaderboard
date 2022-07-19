@@ -10,7 +10,6 @@
 - CSS
 - Webpack
 - Javascript
-- APIs
 
 ## Live Demo
 
@@ -24,7 +23,7 @@
 
 ## Install
 
-- To install locally run, _git@github.com:XsidX/leaderboard.git\_, in your terminal.
+- To install locally run, git@github.com:XsidX/leaderboard.git, in your terminal.
 - open the cloned directory with VSCode
 - install live server extension for VSCode.
 - right click on the index.html file and select open with live server.
