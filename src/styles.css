@@ -76,6 +76,10 @@ table td {
   font-weight: bold;
 }
 
+form {
+  margin-bottom: 2rem;
+}
+
 form input {
   width: 80%;
   border: 1px solid #000;
