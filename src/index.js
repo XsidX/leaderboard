@@ -28,7 +28,7 @@ const displayScores = async () => {
   scores.result.forEach(({ score, user }) => {
     const tr = document.createElement('tr');
     tr.innerHTML = `
-      <td>${user}: ${score}</td>
+      <td>${user} : ${score}</td>
     `;
     table.appendChild(tr);
   });
@@ -49,6 +49,8 @@ form.addEventListener('submit', (e) => {
     score,
   };
   postScore(newScore);
+  document.getElementById('user').value = '';
+  document.getElementById('score').value = '';
 });
 
 // Refresh the scores list
