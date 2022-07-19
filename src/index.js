@@ -36,10 +36,8 @@ const displayScores = async () => {
 
 window.addEventListener('load', displayScores);
 
-const form = document.getElementById('form');
-// console.log('form', form);
-
 // Add a new score
+const form = document.getElementById('form');
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   // Get the user input
