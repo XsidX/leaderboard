@@ -12,6 +12,7 @@
 - Javascript
 
 ## Live Demo
+Here is a [link](https://leaderboard-sid.netlify.app/) to the live demo
 
 ## Getting Started
 
@@ -23,7 +24,7 @@
 
 ## Install
 
-- To install locally run, git@github.com:XsidX/leaderboard.git, in your terminal.
+- To install locally run, _git@github.com:XsidX/leaderboard.git_, in your terminal.
 - open the cloned directory with VSCode
 - install live server extension for VSCode.
 - right click on the index.html file and select open with live server.
